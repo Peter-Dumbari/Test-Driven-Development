@@ -34,7 +34,7 @@ RSpec.describe Solver do
     end
     it 'any other number returns the number' do
       solver = Solver.new
-      expect(solver.fizzbuzz(8)).to eql('2')
+      expect(solver.fizzbuzz(8)).to eql('8')
     end
   end
 end
